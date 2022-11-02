@@ -1,4 +1,3 @@
-//prime code
 num=5
 co=0
 for(i=1;i<=num;i++){
@@ -10,3 +9,4 @@ for(i=1;i<=num;i++){
 }else{
     console.log("not prime")
 }
+
