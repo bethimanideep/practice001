@@ -1,12 +1,18 @@
-num=5
-co=0
-for(i=1;i<=num;i++){
-    if(num%i==0){
-        co++
-    }
-}if(co==2){
+
+//prime function
+function checkprime(num)
+{
+let count=0;
+for(let i=1; i<=num; i++)
+{
+if(num%i==0)
+{
+count++;
+}
+}if(count==2){
     console.log("prime")
 }else{
-    console.log("not prime")
-}
+    console.log("not prime")}
+ }
+    checkprime(13)
 
