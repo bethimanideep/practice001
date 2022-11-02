@@ -1,4 +1,4 @@
-//prime code
+//prime function
 function checkprime(num)
 {
 let count=0;
