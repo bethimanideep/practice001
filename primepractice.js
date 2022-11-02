@@ -1,3 +1,4 @@
+
 //prime function
 function checkprime(num)
 {
@@ -8,12 +9,10 @@ if(num%i==0)
 {
 count++;
 }
-}
-if(count==2)
-{
-return true;
-} return false;
-}
-let ans=checkprime(17)
-console.log(ans);
+}if(count==2){
+    console.log("prime")
+}else{
+    console.log("not prime")}
+ }
+    checkprime(13)
 
